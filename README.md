@@ -602,6 +602,8 @@ hisplot.axvline(log_age.mean()+ 4  * log_age.std(), color='k', ls='--', lw=2)
 hisplot.axvline(log_age.mean()- 3  * log_age.std(), color='k', ls='--', lw=2)
 hisplot.set_title('Распределение возраста(log)')
 ```
+<img src=https://github.com/Long205sm/SF_Project_1/blob/master/graphs/11.png>
+
 Логарифмический график имеет левое распределение
 ```python
 def outliers_z_score (data, feature, log_scale=False, left=3, right=3):
